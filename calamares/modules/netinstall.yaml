@@ -276,6 +276,9 @@
     - gnome-tweaks
     - libnma
     - sushi
+    - plymouth
+    - plymouth-kcm
+    - plymouth-theme-core
   subgroups:
       - name: "GNOME Apps"
         description: "Additional software from the GNOME project"
