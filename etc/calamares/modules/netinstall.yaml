@@ -276,6 +276,8 @@
     - gnome-tweaks
     - libnma
     - sushi
+    - core-gnome-settings
+    - core-icons
     - plymouth
     - plymouth-kcm
     - plymouth-theme-core
