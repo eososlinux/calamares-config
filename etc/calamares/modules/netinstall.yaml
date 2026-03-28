@@ -34,7 +34,6 @@
       packages:
         - limine
         - limine-snapper-sync
-
 - name: "CoreOS Packages"
   description: "needed CoreOS packages"
   hidden: true
@@ -85,7 +84,7 @@
         - ufw
     - name: "bluetooth"
       description: "Bluetooth support"
-      selected: false
+      selected: true
       packages:
         - bluez
         - bluez-hid2hci
@@ -94,7 +93,7 @@
         - bluez-obex
     - name: "packages management"
       description: "Packages tools"
-      selected: true
+      selected: false
       packages:
         - pacman-contrib
         - pkgfile
@@ -218,7 +217,6 @@
     - core-icons
     - core-skel-kde
     - dolphin
-    - egl-wayland
     - fastfetch
     - ffmpegthumbs
     - filelight
@@ -265,6 +263,7 @@
   selected: false
   critical: true
   packages:
+    - fastfetch
     - fwupd
     - gdm
     - gedit
@@ -302,14 +301,6 @@
           - gvfs-smb
           - gvfs-gphoto2
           - gvfs-mtp
-- name: "CPU specific Microcode update packages"
-  description: "Microcode update image for AMD and Intel CPU"
-  hidden: true
-  selected: false
-  critical: false
-  packages:
-    - amd-ucode
-    - intel-ucode
 - name: "Drivers NVIDIA"
   hidden: false
   selected: false
