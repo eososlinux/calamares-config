@@ -330,6 +330,9 @@
     - cosmic-workspaces
     - notification-daemon
     - cosmic-greeter
+    - plymouth
+    - plymouth-kcm
+    - plymouth-theme-core
     - xdg-desktop-portal-cosmic
     - xorg-xwayland
 - name: "Drivers NVIDIA"
