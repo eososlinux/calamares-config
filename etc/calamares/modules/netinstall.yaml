@@ -301,6 +301,37 @@
           - gvfs-smb
           - gvfs-gphoto2
           - gvfs-mtp
+- name: "Cosmic"
+  description: "Linux desktop, which provides an environment that features advanced functionality and a responsive design."
+  hidden: false
+  selected: false
+  critical: true
+  packages:
+    - cosmic-app-library
+    - cosmic-applets
+    - cosmic-bg
+    - cosmic-comp
+    - cosmic-files
+    - cosmic-greeter
+    - cosmic-icon-theme
+    - cosmic-launcher
+    - cosmic-notifications
+    - cosmic-osd
+    - cosmic-panel
+    - cosmic-player
+    - cosmic-randr
+    - cosmic-screenshot
+    - cosmic-session
+    - cosmic-settings
+    - cosmic-settings-daemon
+    - cosmic-terminal
+    - cosmic-text-editor
+    - cosmic-wallpapers
+    - cosmic-workspaces
+    - notification-daemon
+    - cosmic-greeter
+    - xdg-desktop-portal-cosmic
+    - xorg-xwayland
 - name: "Drivers NVIDIA"
   hidden: false
   selected: false
