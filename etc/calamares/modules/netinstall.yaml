@@ -1,12 +1,10 @@
 - name: "Core Base System"
   description: "needed Core packages"
   hidden: true
-  selected: false
-  critical: false
+  selected: true
+  critical: true
   packages:
-    - archlinux-keyring
-    - linux
-    - linux-headers
+    - mkinitcpio-openswap
 - name: "Bootloader"
   description: "Select your bootloader"
   hidden: true
